@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyPlaytify</string>
+    <string name="workout_playlist">Workout Songs</string>
+    <string name="hiphop_playlist">Hip Hop Songs</string>
+    <string name="focus_playlist">Focus Songs</string>
+    <string name="chill_playlist">Chill Songs</string>
+</resources>

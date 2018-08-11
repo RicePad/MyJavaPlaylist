@@ -1,18 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="@color/white_background"
+    android:orientation="vertical"
+    tools:context="com.udacity.jonathan.myplaylist.MainActivity">
+
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/numbers"
+        android:layout_height="@dimen/text_v_layout_height"
+        android:layout_weight="1"
+        style="@style/CategoryStyle"
+        android:background="@color/playlist_color_darkblue"
+        android:text="@string/workout_playlist" />
+    <View style="@style/Divider"/>
+    <TextView
+        android:id="@+id/family"
+        android:layout_height="@dimen/text_v_layout_height"
+        android:layout_weight="1"
+        style="@style/CategoryStyle"
+        android:background="@color/playlist_color_lightblue"
+        android:text="@string/hiphop_playlist" />
+    <View style="@style/Divider"/>
+    <TextView
+        android:id="@+id/colors"
+        android:layout_height="@dimen/text_v_layout_height"
+        android:layout_weight="1"
+        style="@style/CategoryStyle"
+        android:background="@color/playlist_color_darkblue"
+        android:text="@string/focus_playlist" />
+    <View style="@style/Divider"/>
+    <TextView
+        android:id="@+id/phrases"
+        android:layout_height="@dimen/text_v_layout_height"
+        android:layout_weight="1"
+        style="@style/CategoryStyle"
+        android:background="@color/playlist_color_lightblue"
+        android:text="@string/focus_playlist" />
 
-</android.support.constraint.ConstraintLayout>
+
+
+
+</LinearLayout>

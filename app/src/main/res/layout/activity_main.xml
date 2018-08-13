@@ -7,40 +7,46 @@
     android:background="@color/white_background"
     android:orientation="vertical"
     tools:context="com.udacity.jonathan.myplaylist.MainActivity">
-
+    <View style="@style/Divider"/>
 
     <TextView
-        android:id="@+id/numbers"
+        android:id="@+id/workout_playlist"
+        android:onClick="openWorkoutPlaylist"
         android:layout_height="@dimen/text_v_layout_height"
         android:layout_weight="1"
         style="@style/CategoryStyle"
         android:background="@color/playlist_color_darkblue"
-        android:text="@string/workout_playlist" />
+        android:text="@string/workout_playlist"
+        android:textAlignment="center"/>
     <View style="@style/Divider"/>
     <TextView
-        android:id="@+id/family"
+        android:id="@+id/hiphop_playlist"
         android:layout_height="@dimen/text_v_layout_height"
         android:layout_weight="1"
         style="@style/CategoryStyle"
         android:background="@color/playlist_color_lightblue"
-        android:text="@string/hiphop_playlist" />
-    <View style="@style/Divider"/>
+        android:text="@string/hiphop_playlist"
+        android:textAlignment="center"/>
+    <View style="@style/Divider"
+        />
     <TextView
-        android:id="@+id/colors"
+        android:id="@+id/focus_playlist"
         android:layout_height="@dimen/text_v_layout_height"
         android:layout_weight="1"
         style="@style/CategoryStyle"
         android:background="@color/playlist_color_darkblue"
-        android:text="@string/focus_playlist" />
+        android:text="@string/focus_playlist"
+        android:textAlignment="center"/>
     <View style="@style/Divider"/>
     <TextView
-        android:id="@+id/phrases"
+        android:id="@+id/chill_playlist"
         android:layout_height="@dimen/text_v_layout_height"
         android:layout_weight="1"
         style="@style/CategoryStyle"
         android:background="@color/playlist_color_lightblue"
-        android:text="@string/focus_playlist" />
-
+        android:text="@string/chill_playlist"
+        android:textAlignment="center"/>
+    <View style="@style/Divider"/>
 
 
 

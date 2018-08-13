@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".WorkoutActivity"
+            android:label="@string/workout_playlist"/>
+        <activity android:name=".HiphopActivity"
+            android:label="@string/hiphop_playlist"/>
+        <activity android:name=".FocusActivity"
+            android:label="@string/focus_playlist"/>
+        <activity android:name=".ChillActivity"
+            android:label="@string/chill_playlist"></activity>
     </application>
 
 </manifest>

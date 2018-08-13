@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Primary color of the app (shown in the app bar) -->
-    <color name="primary_color">#009688</color>
-
-    <!-- Primary dark color of the app (shown in the status bar) -->
-    <color name="primary_dark_color">#00796B</color>
-
-    <!-- Background color for app -->
-    <color name="white_background">#FFFFFF</color>
-
-    <!-- Background color for the numbers category -->
-    <color name="playlist_color">#FFC107</color>
+    <color name="primary_color">#3F51B5</color>
+    <color name="primary_dark_color">#303F9F</color>
+    <color name="white_background">#ffff</color>
+    <color name="playlist_color_darkblue">#303F9F</color>
+    <color name="playlist_color_lightblue">#3F51B5</color>
 
 </resources>

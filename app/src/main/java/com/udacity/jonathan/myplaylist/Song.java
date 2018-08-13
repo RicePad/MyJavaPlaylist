@@ -4,8 +4,8 @@ public class Song {
     private String playlistSongName;
     private String playlistArtistName;
 
-    public song(String defaultSongName, String artistName){
-        playlistSongName = defaultSongName
+    public Song(String defaultSongName, String artistName){
+        playlistSongName = defaultSongName;
         playlistArtistName = artistName;
     }
 

@@ -8,11 +8,19 @@
     android:id="@+id/list_item">
 
     <TextView
-        android:id="@+id/workout_text_view"
+        android:id="@+id/song_text_view"
         android:layout_width="match_parent"
         android:layout_height="@dimen/text_v_layout_height"
         android:layout_weight="1"
-        tools:text="lutti"
+        tools:text="Song name"
+        android:textAlignment="center"
+        android:textSize="40sp"/>
+    <TextView
+        android:id="@+id/artist_song_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_v_layout_height"
+        android:layout_weight="1"
+        tools:text="Artist Name"
         android:textAlignment="center"
         android:textSize="40sp"/>
 

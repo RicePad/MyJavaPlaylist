@@ -12,29 +12,25 @@ public class FocusActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_focus);
-        ArrayList<String> songs = new ArrayList<String>();
+        setContentView(R.layout.song_list);
 
-        songs.add("Shake Shake it Booty!");
-        songs.add("Crunches everyday");
-        songs.add("Squatty Squatty");
-        songs.add("Looking Good");
-        songs.add("Lost 30 lbs");
-        songs.add("Biceps for life");
-        songs.add("Skip legs everyday");
-        songs.add("Weak Chicken Legs");
-        songs.add("Golden Standard 30%");
+        ArrayList<Song> songs = new ArrayList<Song>();
+        songs.add(new Song("Booty Shake"," by Drake"));
+        songs.add(new Song("Booty Shake"," by Drake"));
+        songs.add(new Song("Booty Shake"," by Drake"));
+        songs.add(new Song("Booty Shake"," by Drake"));
+        songs.add(new Song("Booty Shake"," by Drake"));
 
 
-        ArrayAdapter<String> itemsAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, songs);
+        SongAdapter adapter = new SongAdapter(this, songs);
+
 
 
         //Find ListView id
-        ListView listView = (ListView) findViewById(R.id.focus_list);
+        ListView listView = (ListView) findViewById(R.id.list);
 
 
-        listView.setAdapter(itemsAdapter);
-
+        listView.setAdapter(adapter);
 
 
     }

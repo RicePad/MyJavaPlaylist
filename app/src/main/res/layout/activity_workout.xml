@@ -9,4 +9,6 @@
     android:paddingRight="16dp"
     android:paddingTop="50dp"
     android:paddingBottom="50dp"
-    android:textAlignment="center"/>
+    android:textAlignment="center"
+    android:background="@color/playlist_color_darkblue"
+    />

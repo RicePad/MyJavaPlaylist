@@ -10,19 +10,22 @@
     <TextView
         android:id="@+id/song_text_view"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/text_v_layout_height"
-        android:layout_weight="1"
+        android:layout_height="match_parent"
         tools:text="Song name"
-        android:textAlignment="center"
-        android:textSize="40sp"/>
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/white_background"
+        android:fontFamily="sans-serif"/>
+
     <TextView
         android:id="@+id/artist_song_text_view"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/text_v_layout_height"
-        android:layout_weight="1"
+        android:layout_height="match_parent"
         tools:text="Artist Name"
-        android:textAlignment="center"
-        android:textSize="40sp"/>
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/white_background"
+        android:fontFamily="sans-serif"/>
+    <View style="@style/Divider"/>
+
 
 
 </LinearLayout>

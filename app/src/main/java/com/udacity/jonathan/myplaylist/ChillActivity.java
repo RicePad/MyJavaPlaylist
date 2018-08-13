@@ -12,7 +12,7 @@ public class ChillActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.song_list);
+        setContentView(R.layout.activity_chill);
 
         ArrayList<Song> songs = new ArrayList<Song>();
         songs.add(new Song("Booty Shake"," by Drake"));
@@ -20,6 +20,8 @@ public class ChillActivity extends AppCompatActivity {
         songs.add(new Song("Booty Shake"," by Drake"));
         songs.add(new Song("Booty Shake"," by Drake"));
         songs.add(new Song("Booty Shake"," by Drake"));
+        songs.add(new Song("Booty Shake"," by Drake"));
+
 
 
         SongAdapter adapter = new SongAdapter(this, songs);

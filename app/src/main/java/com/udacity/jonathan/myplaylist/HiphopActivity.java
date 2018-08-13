@@ -21,6 +21,8 @@ public class HiphopActivity extends AppCompatActivity {
         songs.add(new Song("Booty Shake"," by Drake"));
         songs.add(new Song("Booty Shake"," by Drake"));
         songs.add(new Song("Booty Shake"," by Drake"));
+        songs.add(new Song("Booty Shake"," by Drake"));
+
 
 
         SongAdapter adapter = new SongAdapter(this, songs);

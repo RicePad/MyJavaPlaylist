@@ -16,12 +16,12 @@ public class HiphopActivity extends AppCompatActivity {
 
 
         ArrayList<Song> songs = new ArrayList<Song>();
-        songs.add(new Song("Booty Shake"," by Drake"));
-        songs.add(new Song("Booty Shake"," by Drake"));
-        songs.add(new Song("Booty Shake"," by Drake"));
-        songs.add(new Song("Booty Shake"," by Drake"));
-        songs.add(new Song("Booty Shake"," by Drake"));
-        songs.add(new Song("Booty Shake"," by Drake"));
+        songs.add(new Song("Don’t Let Me Down"," by Chainsmokers"));
+        songs.add(new Song("Stronger"," by Kanye West"));
+        songs.add(new Song("Work"," by Rihanna"));
+        songs.add(new Song("Work From Home"," by Fifth Harmony"));
+        songs.add(new Song("Ni**as in Paris"," by JAY Z"));
+        songs.add(new Song("My House"," by FloRida"));
 
 
 

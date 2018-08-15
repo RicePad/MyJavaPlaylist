@@ -12,15 +12,15 @@ public class ChillActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chill);
+        setContentView(R.layout.song_list);
 
         ArrayList<Song> songs = new ArrayList<Song>();
-        songs.add(new Song("Booty Shake"," by Drake"));
-        songs.add(new Song("Booty Shake"," by Drake"));
-        songs.add(new Song("Booty Shake"," by Drake"));
-        songs.add(new Song("Booty Shake"," by Drake"));
-        songs.add(new Song("Booty Shake"," by Drake"));
-        songs.add(new Song("Booty Shake"," by Drake"));
+        songs.add(new Song("Boy Oh Boy"," by Diplo"));
+        songs.add(new Song("The Beast"," by T.I."));
+        songs.add(new Song("One Dance"," by Drake"));
+        songs.add(new Song("Forever"," by Drake"));
+        songs.add(new Song("Big Rings"," by Drake"));
+        songs.add(new Song("Middle"," by DJ Snake"));
 
 
 

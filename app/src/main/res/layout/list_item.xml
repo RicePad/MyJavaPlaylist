@@ -6,7 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/list_item">
-
     <TextView
         android:id="@+id/song_text_view"
         android:layout_width="match_parent"
@@ -23,7 +22,14 @@
         tools:text="Artist Name"
         android:textSize="@dimen/text_size"
         android:textColor="@color/white_background"
-        android:fontFamily="sans-serif"/>
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="5dp"/>
+     <Button
+            android:id="@+id/stop"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dip"
+            android:text="Play"/>
     <View style="@style/Divider"/>
 
 

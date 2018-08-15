@@ -17,11 +17,11 @@ public class WorkoutActivity extends AppCompatActivity {
 
 
         ArrayList<Song> songs = new ArrayList<Song>();
-        songs.add(new Song("Booty Shake"," by Drake"));
-        songs.add(new Song("Booty Shake"," by Drake"));
-        songs.add(new Song("Booty Shake"," by Drake"));
-        songs.add(new Song("Booty Shake"," by Drake"));
-        songs.add(new Song("Booty Shake"," by Drake"));
+        songs.add(new Song("Panda"," by Desiigner"));
+        songs.add(new Song("‘Till I Collapse"," by Eminem"));
+        songs.add(new Song("One Dance"," by Drake"));
+        songs.add(new Song("Jumpman"," by Drake"));
+        songs.add(new Song("Power"," by Kanye West"));
         songs.add(new Song("Booty Shake"," by Drake"));
 
 

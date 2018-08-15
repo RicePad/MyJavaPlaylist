@@ -15,12 +15,12 @@ public class FocusActivity extends AppCompatActivity {
         setContentView(R.layout.song_list);
 
         ArrayList<Song> songs = new ArrayList<Song>();
-        songs.add(new Song("Booty Shake"," by Drake"));
-        songs.add(new Song("Booty Shake"," by Drake"));
-        songs.add(new Song("Booty Shake"," by Drake"));
-        songs.add(new Song("Booty Shake"," by Drake"));
-        songs.add(new Song("Booty Shake"," by Drake"));
-        songs.add(new Song("Booty Shake"," by Drake"));
+        songs.add(new Song("Sorry"," by Justin Bieber"));
+        songs.add(new Song("Trap Queen"," by Fetty Wap"));
+        songs.add(new Song("Mmm Yeah"," by Austin Mahone"));
+        songs.add(new Song("Make It Rain"," by Fat Joe"));
+        songs.add(new Song("Hail Mary"," by 2Pac"));
+        songs.add(new Song("We Outchea"," by Ace Hood"));
 
 
 

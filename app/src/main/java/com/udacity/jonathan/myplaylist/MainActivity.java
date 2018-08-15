@@ -1,5 +1,6 @@
 package com.udacity.jonathan.myplaylist;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -24,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent numbersIntent = new Intent(MainActivity.this, WorkoutActivity.class);
-                startActivity(numbersIntent);
+                Intent workoutIntent = new Intent(MainActivity.this, WorkoutActivity.class);
+                startActivity(workoutIntent);
             }
         });
 
@@ -36,8 +37,8 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent numbersIntent = new Intent(MainActivity.this, HiphopActivity.class);
-                startActivity(numbersIntent);
+                Intent hipHopIntent = new Intent(MainActivity.this, HiphopActivity.class);
+                startActivity(hipHopIntent);
             }
         });
         //Set intent for focus album
@@ -46,8 +47,8 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent numbersIntent = new Intent(MainActivity.this, HiphopActivity.class);
-                startActivity(numbersIntent);
+                Intent focusIntent = new Intent(MainActivity.this, FocusActivity.class);
+                startActivity(focusIntent);
             }
         });
 
@@ -58,8 +59,8 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent numbersIntent = new Intent(MainActivity.this, HiphopActivity.class);
-                startActivity(numbersIntent);
+                Intent chillIntent = new Intent(MainActivity.this, ChillActivity.class);
+                startActivity(chillIntent);
             }
         });
 

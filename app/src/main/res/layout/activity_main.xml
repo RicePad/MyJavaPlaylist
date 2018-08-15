@@ -47,7 +47,4 @@
         android:text="@string/chill_playlist"
         android:textAlignment="center"/>
     <View style="@style/Divider"/>
-
-
-
 </LinearLayout>

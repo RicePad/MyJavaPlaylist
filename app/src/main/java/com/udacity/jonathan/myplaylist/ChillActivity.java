@@ -22,19 +22,10 @@ public class ChillActivity extends AppCompatActivity {
         songs.add(new Song("Big Rings"," by Drake"));
         songs.add(new Song("Middle"," by DJ Snake"));
 
-
-
         SongAdapter adapter = new SongAdapter(this, songs);
-
-
 
         //Find ListView id
         ListView listView = (ListView) findViewById(R.id.list);
-
-
         listView.setAdapter(adapter);
-
-
-
     }
 }

@@ -23,18 +23,10 @@ public class HiphopActivity extends AppCompatActivity {
         songs.add(new Song("Ni**as in Paris"," by JAY Z"));
         songs.add(new Song("My House"," by FloRida"));
 
-
-
         SongAdapter adapter = new SongAdapter(this, songs);
-
-
 
         //Find ListView id
         ListView listView = (ListView) findViewById(R.id.list);
-
-
         listView.setAdapter(adapter);
-
-
     }
 }

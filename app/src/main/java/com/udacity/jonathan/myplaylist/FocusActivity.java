@@ -22,18 +22,10 @@ public class FocusActivity extends AppCompatActivity {
         songs.add(new Song("Hail Mary"," by 2Pac"));
         songs.add(new Song("We Outchea"," by Ace Hood"));
 
-
-
         SongAdapter adapter = new SongAdapter(this, songs);
-
-
 
         //Find ListView id
         ListView listView = (ListView) findViewById(R.id.list);
-
-
         listView.setAdapter(adapter);
-
-
     }
 }

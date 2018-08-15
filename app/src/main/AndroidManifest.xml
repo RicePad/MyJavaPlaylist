@@ -12,18 +12,25 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".WorkoutActivity"
-            android:label="@string/workout_playlist"/>
-        <activity android:name=".HiphopActivity"
-            android:label="@string/hiphop_playlist"/>
-        <activity android:name=".FocusActivity"
-            android:label="@string/focus_playlist"/>
-        <activity android:name=".ChillActivity"
-            android:label="@string/chill_playlist"></activity>
+        <activity
+            android:name=".WorkoutActivity"
+            android:label="@string/workout_playlist"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".HiphopActivity"
+            android:label="@string/hiphop_playlist"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".FocusActivity"
+            android:label="@string/focus_playlist"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".ChillActivity"
+            android:label="@string/chill_playlist"
+            android:parentActivityName=".MainActivity">
+        </activity>
     </application>
-
 </manifest>
